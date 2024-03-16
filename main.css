@@ -1,0 +1,108 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+.fonte-titulo {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.cor-titulo {
+    color:#FFD700;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+.navbar,
+footer {
+    background-color: #1F2833;
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #FFD700;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #FFD700;
+    color: #1F2833;
+}
+
+#cabecalho .nav .nav-link {
+    color: #fff;
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    color: #FFD700;
+}
+
+.carousel img {
+    height: 900px;
+}
+
+#inicio, 
+#marcas,
+#fale-conosco {
+    background-color: #e4f2ff;
+}
+
+#produtos .nav .nav-link.active {
+    background-color: #FFD700;
+    color: #1F2833;
+}
+
+#produtos .nav .nav-link {
+    color: black;
+}
+
+.tab-content .tab-pane img {
+    height: 400px;
+}
+
+.card {
+    height: 450px;
+}
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+footer p a {
+    text-decoration: none;
+    transition: all ease .1s;
+    color: #FFD700;
+}   
+
+footer p a:hover {
+    border-top: 2px solid ;
+}
+
+@media (max-width: 767px) {
+    .carousel img {
+        height: 280px;
+    }
+
+    .card {
+        margin-bottom: 32px;
+    }
+}
+
+@media (max-width: 1023px) {
+    #cabecalho .nav {
+        display: flex;
+        justify-content: end;
+    }
+}

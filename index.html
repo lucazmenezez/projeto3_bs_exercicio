@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreetStyle - Produtos Exclusivos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-md sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1><a href="#inicio" class="fonte-titulo cor-titulo">StreetStyle</a></h1>
+            <button class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon custom-toggler"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu">
+                <ul class="nav nav-pills d-block d-md-flex text-center mt-2">
+                    <li class="nav-item fw-bold">
+                        <a href="#inicio" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Início
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link">
+                            <i class="bi bi-tags-fill me-1"></i>
+                            Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#marcas" class="nav-link">
+                            <i class="bi bi-bookmark-check me-1"></i>
+                            Marcas
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#perguntas-frequentes" class="nav-link">
+                            <i class="bi bi-question-octagon me-1"></i>
+                            Perguntas Frequentes
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-telephone-fill me-1"></i>
+                            Fale Conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="inicio">
+            <div class="carousel carousel-fade slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="d-block w-100" src="./imagens/adult-1867073_1920.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="./imagens/skateboard-5563464_1920.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="./imagens/soccer-606235_1920.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="./imagens/sports-3340598_1920.jpg" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-12">
+                            <img class="d-block w-100 rounded mb-3 mb-lg-0" src="./imagens/fachada loja  de esportes.png" alt="fachada loja esportiva">
+                        </div>
+                        <div class="col-lg-7 col-md-12">
+                            <h2 class="fonte-titulo">Sobre <span class="cor-titulo">a Loja</span></h2>
+                            <p class="fs-5">
+                                Somos uma loja online que oferece o melhor para os nossos clientes, sempre de olho nas tendências e lançamentos. Nossa loja oferece o que há de mais moderno e atual em todas as categorias de produtos. Desde o princípio, nossa preocupação é oferecer os melhores produtos com os melhores preços aliado a um ótimo atendimento a você cliente, que é a pessoa mais importante para nós.
+                            </p>
+                            <h3 class="fonte-titulo">
+                                Sobre <span class="cor-titulo">Nossos Valores</span>
+                            </h3>
+                            <p class="fs-5">
+                                <b>Força</b> para que você possa encarar os seus desafios e vencê-los, estaremos junto com você.
+                                <b>Motivação</b> para que dia após dia renove a sua motivação, com conforto e muito estilo.
+                                <b>Paixão</b> pelo que faz, por estar praticando algo que te traga bem estar. Nossa missão é elevar sua auto estima através dos nossos produtos.
+                            <ul class="fs-5">
+                                <li>Força</li>
+                                <li>Motivação</li>
+                                <li>Paixão</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="fonte-titulo text-center mb-5">Nossos <span class="cor-titulo">Produtos</span></h2>
+                </div>
+                <div class="row">
+                    <div class="container">
+                        <nav class="nav nav-pills">
+                            <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link fw-bold fonte-titulo active" type="button">Tênis</button>
+                            <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link fw-bold fonte-titulo" type="button">Camisetas</button>
+                            <button data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link fw-bold fonte-titulo" type="button">Chuteiras</button>
+                            <button data-bs-toggle="tab" data-bs-target="#aba4" class="nav-link fw-bold fonte-titulo" type="button">Bolas</button>
+                        </nav>
+                        <div class="tab-content mt-3">
+                            <div class="tab-pane active" id="aba1">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 mb-5">
+                                        <img class="d-block w-100 mb-2 rounded" src="./imagens/adidas-5418998_1280.jpg" alt="tenis adidas preto">
+                                        <h3 class="fonte-titulo cor-titulo fs-4">Tênis Adidas Preto</h3>
+                                        <strong class="fs-4">R$ 600,00</strong>
+                                        <p>Casual</p>
+                                        <button class="btn btn-success fw-bold">
+                                            <i class="bi bi-cart me-1"></i>
+                                            Adicionar ao carrinho
+                                        </button>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mb-5">
+                                        <img class="d-block w-100 mb-2 rounded" src="./imagens/countryside-1846093_1280.jpg" alt="tenis de corrida">
+                                        <h3 class="fonte-titulo cor-titulo fs-4">Tênis de Corrida Nike</h3>
+                                        <strong class="fs-4">R$ 700,00</strong>
+                                        <p>Esportes</p>
+                                        <button class="btn btn-success fw-bold">
+                                            <i class="bi bi-cart me-1"></i>
+                                            Adicionar ao carrinho
+                                        </button>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mb-5">
+                                        <img class="d-block w-100 mb-2 rounded" src="./imagens/nike-3957127_1280.jpg" alt="tenis nike">
+                                        <h3 class="fonte-titulo cor-titulo fs-4">Tênis Nike</h3>
+                                        <strong class="fs-4">R$ 900,00</strong>
+                                        <p>Casual</p>
+                                        <button class="btn btn-success fw-bold">
+                                            <i class="bi bi-cart me-1"></i>
+                                            Adicionar ao carrinho
+                                        </button>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mb-5">
+                                        <img class="d-block w-100 mb-2 rounded" src="./imagens/nike-5128118_1280.jpg" alt="tenis nike air force">
+                                        <h3 class="fonte-titulo cor-titulo fs-4">Tênis Nike Air Force</h3>
+                                        <strong class="fs-4">R$ 1100,00</strong>
+                                        <p>Casual</p>
+                                        <button class="btn btn-success fw-bold">
+                                            <i class="bi bi-cart me-1"></i>
+                                            Adicionar ao carrinho
+                                        </button>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mb-5">
+                                        <img class="d-block w-100 mb-2 rounded" src="./imagens/feet-1840619_1280.jpg" alt="tenis nike air max">
+                                        <h3 class="fonte-titulo cor-titulo fs-4">Tênis Nike Air Max</h3>
+                                        <strong class="fs-4">R$ 700,00</strong>
+                                        <p>Casual</p>
+                                        <button class="btn btn-success fw-bold">
+                                            <i class="bi bi-cart me-1"></i>
+                                            Adicionar ao carrinho
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="aba2">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 mb-5">
+                                        <img class="d-block w-100 mb-2 rounded" src="./imagens/camiseta brasil.jpeg" alt="camiseta brasil">
+                                        <h3 class="fonte-titulo cor-titulo fs-4">Camiseta Dry Fit Brasil</h3>
+                                        <strong class="fs-4">R$ 400,00</strong>
+                                        <p>Esportes</p>
+                                        <button class="btn btn-success fw-bold">
+                                            <i class="bi bi-cart me-1"></i>
+                                            Adicionar ao carrinho
+                                        </button>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mb-5">
+                                        <img class="d-block w-100 mb-2 rounded" src="./imagens/camiseta compressão.webp" alt="camiseta compressão">
+                                        <h3 class="fonte-titulo cor-titulo fs-4">Camiseta de Compressão Preta</h3>
+                                        <strong class="fs-4">R$ 200,00</strong>
+                                        <p>Esportes</p>
+                                        <button class="btn btn-success fw-bold">
+                                            <i class="bi bi-cart me-1"></i>
+                                            Adicionar ao carrinho
+                                        </button>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mb-5">
+                                        <img class="d-block w-100 mb-2 rounded" src="./imagens/camiseta sao paulo.webp" alt="camiseta sao paulo">
+                                        <h3 class="fonte-titulo cor-titulo fs-4">Camiseta Dry Fit São Paulo</h3>
+                                        <strong class="fs-4">R$ 300,00</strong>
+                                        <p>Esportes</p>
+                                        <button class="btn btn-success fw-bold">
+                                            <i class="bi bi-cart me-1"></i>
+                                            Adicionar ao carrinho
+                                        </button>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mb-5">
+                                        <img class="d-block w-100 mb-2 rounded" src="./imagens/camiseta vermelha nike.jpg" alt="camiseta vermelha">
+                                        <h3 class="fonte-titulo cor-titulo fs-4">Camiseta Vermelha da Nike</h3>
+                                        <strong class="fs-4">R$ 120,00</strong>
+                                        <p>Esportes</p>
+                                        <button class="btn btn-success fw-bold">
+                                            <i class="bi bi-cart me-1"></i>
+                                            Adicionar ao carrinho
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="aba3">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 mb-5">
+                                        <img class="d-block w-100 mb-2 rounded" src="./imagens/chuteira adidas.jpg" alt="chuteira adidas">
+                                        <h3 class="fonte-titulo cor-titulo fs-4">Chuteira Adidas Cano Alto</h3>
+                                        <strong class="fs-4">R$ 400,00</strong>
+                                        <p>Futebol</p>
+                                        <button class="btn btn-success fw-bold">
+                                            <i class="bi bi-cart me-1"></i>
+                                            Adicionar ao carrinho
+                                        </button>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mb-5">
+                                        <img class="d-block w-100 mb-2 rounded" src="./imagens/chuteira nike.png" alt="chuteira nike">
+                                        <h3 class="fonte-titulo cor-titulo fs-4">Chuteira Nike Mercurial</h3>
+                                        <strong class="fs-4">R$ 300,00</strong>
+                                        <p>Futebol</p>
+                                        <button class="btn btn-success fw-bold">
+                                            <i class="bi bi-cart me-1"></i>
+                                            Adicionar ao carrinho
+                                        </button>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mb-5">
+                                        <img class="d-block w-100 mb-2 rounded" src="./imagens/adidas-4038397_1280.jpg" alt="chuteira adidas preta">
+                                        <h3 class="fonte-titulo cor-titulo fs-4">Chuteira Adidas Clássica</h3>
+                                        <strong class="fs-4">R$ 200,00</strong>
+                                        <p>Futebol</p>
+                                        <button class="btn btn-success fw-bold">
+                                            <i class="bi bi-cart me-1"></i>
+                                            Adicionar ao carrinho
+                                        </button>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mb-5">
+                                        <img class="d-block w-100 mb-2 rounded" src="./imagens/football-19115_1280.jpg" alt="chuteira nike amarela">
+                                        <h3 class="fonte-titulo cor-titulo fs-4">Chuteira Nike Amarela</h3>
+                                        <strong class="fs-4">R$ 200,00</strong>
+                                        <p>Futebol</p>
+                                        <button class="btn btn-success fw-bold">
+                                            <i class="bi bi-cart me-1"></i>
+                                            Adicionar ao carrinho
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="aba4">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 mb-5">
+                                        <img class="d-block w-100 mb-2 rounded" src="./imagens/tennis-racket-2259356_1280.jpg" alt="bola de tenis">
+                                        <h3 class="fonte-titulo cor-titulo fs-4">Bola de Tenis</h3>
+                                        <strong class="fs-4">R$ 50,00</strong>
+                                        <p>Tenis</p>
+                                        <button class="btn btn-success fw-bold">
+                                            <i class="bi bi-cart me-1"></i>
+                                            Adicionar ao carrinho
+                                        </button>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mb-5">
+                                        <img class="d-block w-100 mb-2 rounded" src="./imagens/soccer-2042585_1280.jpg" alt="bola de futebol">
+                                        <h3 class="fonte-titulo cor-titulo fs-4">Bola de Futebol Adidas</h3>
+                                        <strong class="fs-4">R$ 100,00</strong>
+                                        <p>Futebol</p>
+                                        <button class="btn btn-success fw-bold">
+                                            <i class="bi bi-cart me-1"></i>
+                                            Adicionar ao carrinho
+                                        </button>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mb-5">
+                                        <img class="d-block w-100 mb-2 rounded" src="./imagens/basketball-2724391_1280.png" alt="bola de basquete">
+                                        <h3 class="fonte-titulo cor-titulo fs-4">Bola de Basquete Wilson</h3>
+                                        <strong class="fs-4">R$ 150,00</strong>
+                                        <p>Basquete</p>
+                                        <button class="btn btn-success fw-bold">
+                                            <i class="bi bi-cart me-1"></i>
+                                            Adicionar ao carrinho
+                                        </button>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mb-5">
+                                        <img class="d-block w-100 mb-2 rounded" src="./imagens/football-2724393_1280.png" alt="bola de futebol americano">
+                                        <h3 class="fonte-titulo cor-titulo fs-4">Bola de Futebol Americano</h3>
+                                        <strong class="fs-4">R$ 200,00</strong>
+                                        <p>Futebol Americano</p>
+                                        <button class="btn btn-success fw-bold">
+                                            <i class="bi bi-cart me-1"></i>
+                                            Adicionar ao carrinho
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="marcas" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row pb-5">
+                    <h2 class="fonte-titulo text-center">Sobre <span class="cor-titulo">as marcas</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-md-3">
+                        <div class="card text-bg-dark">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <img class="d-block w-100" src="./imagens/Adidas-Logo.png" alt="">
+                            </div>
+                            <div class="card-img-overlay">
+                                <h4 class="card-title cor-titulo fonte-titulo">Adidas</h4>
+                                <p class="card-text my-5">
+                                    A Adidas é uma empresa de calçados, roupas esportivas e equipamentos esportivos fundada na Alemanha. Tem o nome de seu fundador, Adolf Dassler, também conhecido pelo apelido de Adi, que começou a produzir sapatilhas nos anos 1920, juntamente com o seu irmão Rudolf Dassler, em Herzogenaurach, próximo de Nuremberg.
+                                </p>
+                                <a href="#" class="btn btn-light">Veja mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card text-bg-dark">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <img class="d-block w-100" src="./imagens/Nike-Logo.png" alt="">
+                            </div>
+                            <div class="card-img-overlay">
+                                <h4 class="card-title cor-titulo fonte-titulo">Nike</h4>
+                                <p class="card-text my-5">
+                                    A história da Nike começou por um ex-atleta Phil Knight e seu treinador de atletismo Bill Bowerman, em 1964 nos Estados Unidos, enquanto Phil vendia os tênis em seu carro, Bill ficava por conta do desenvolvimento e design de modelos novos. O primeiro lançamento da marca ocorreu em 1971. 
+                                </p>
+                                <a href="#" class="btn btn-light">Veja mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card text-bg-dark">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <img class="d-block w-100" src="./imagens/Puma-Logo.png" alt="">
+                            </div>
+                            <div class="card-img-overlay">
+                                <h4 class="card-title cor-titulo fonte-titulo">Puma</h4>
+                                <p class="card-text my-5">
+                                    A história da Puma se inicia no ano de 1948, numa pequena cidade alemã, quando Rudolf Dassler briga com seu irmão e resolve fundar sua empresa para produção de artigos esportivos. O primeiro lançamento foi de uma chuteira, onde se iniciou seu duradouro relacionamento com o futebol.
+                                </p>
+                                <a href="#" class="btn btn-light">Veja mais</a>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </section>
+        <section id="perguntas-frequentes" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row pb-5">
+                    <h2 class="fonte-titulo text-center">Perguntas <span class="cor-titulo">Frequentes</span></h2>
+                </div>
+                <div class="row">
+                    <div class="accordion">
+                        <div class="accordion-item mb-2">
+                            <div class="accordion-header">
+                                <button class="accordion-button bg-success text-light"  data-bs-toggle="collapse" data-bs-target="#resposta1">
+                                    Quem somos?
+                                </button>
+                            </div>
+                            <div class="accordion-collapse collapse show" id="resposta1">
+                                <div class="accordion-body">
+                                    Nós vendemos roupas esportivas com uma proposta diferenciada para o vestuário de quem busca conforto e muito estilo para realizar seus exercícios. 
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="accordion-item mb-2">
+                            <div class="accordion-header">
+                                <button class="accordion-button bg-success text-light" data-bs-toggle="collapse" data-bs-target="#resposta2">
+                                    Como são escolhidos nossos produtos?
+                                </button>
+                            </div>
+                            <div class="accordion-collapse collapse" id="resposta2">
+                                <div class="accordion-body">
+                                    Nosso produto é selecionado com muito esmero e testado exaustivamente para garantirmos a durabilidade, buscando te dar toda a mobilidade para sua máxima performance. 
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="accordion-item mb-2">
+                            <div class="accordion-header">
+                                <button class="accordion-button bg-success text-light" data-bs-toggle="collapse" data-bs-target="#resposta3">
+                                    Nossos valores
+                                </button>
+                            </div>
+                            <div class="accordion-collapse collapse" id="resposta3">
+                                <div class="accordion-body">
+                                    - FORÇA para que você possa encarar os seus desafios e vencê-los, estaremos junto com você. <br>
+                                    - MOTIVAÇÃO para que dia após dia renove a sua motivação, com conforto e muito estilo. <br>
+                                    - PAIXÃO pelo que faz, por estar praticando algo que te traga bem estar. Nossa missão é elevar sua auto estima através dos nossos produtos.
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="accordion-item mb-2">
+                            <div class="accordion-header">
+                                <button class="accordion-button bg-success text-light" data-bs-toggle="collapse" data-bs-target="#resposta4">
+                                    Nossa missão
+                                </button>
+                            </div>
+                            <div class="accordion-collapse collapse" id="resposta4">
+                                <div class="accordion-body">
+                                    Vender motivação através do nosso vestuário.
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="fonte-titulo text-center">Fale <span class="cor-titulo">Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div class="mt-2">
+                                <label for="nome" class="form-label fw-bold" required >Seu nome:</label>
+                                <input type="text" id="nome" class="form-control">
+                            </div>
+                            <div class="mt-2">
+                                <label for="telefone" class="form-label fw-bold" required >Seu telefone:</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mt-2">
+                                <label for="email" class="form-label fw-bold" required >Seu email:</label>
+                                <input type="email" id="email" class="form-control">
+                            </div>
+                            <div class="mt-2">
+                                <label for="mensagem" class="form-label fw-bold" required >Adicione uma mensagem:</label>
+                                <textarea id="mensagem" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-light mt-3 mb-5 fw-bold">Cadastrar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="cor-titulo fonte-titulo">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-facebook cor-titulo"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4 mx-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram cor-titulo"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp cor-titulo"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="cor-titulo fonte-titulo">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo n° 951, Bairro bootstrap - Curitiba - PR
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="py-2">
+            <p class="text-center m-0">
+                &copy; 2024 - Desenvolvido por <a href="https://github.com/lucazmenezez">Lucas Menezes.</a>
+            </p>
+        </footer>
+    </div>
+
+    <button class="d-none" type="button" data-bs-toggle="modal" data-bs-target="#modal">
+        botao
+    </button>
+    <div class="modal" id="modal" data-bs-backdrop="static">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Ofertas Exclusivas</h2>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img class="d-block w-100" src="./imagens/promoção50.jpg" class="img-fluid" alt="Oferta exclusiva">
+                </div>
+                <div class="modal-footer">
+                    Somente até o dia <time>01/01/2025 às 00:00</time>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
